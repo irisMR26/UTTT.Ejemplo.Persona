@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\iorif\Downloads\Videos</_PublishTargetUrl>
+    <History>True|2022-03-11T06:54:02.7869658Z;True|2022-03-11T00:44:27.8228465-06:00;True|2022-03-09T22:31:26.1693917-06:00;True|2022-02-04T16:55:37.3466232-06:00;True|2022-02-04T13:37:37.9436124-06:00;True|2022-02-04T12:41:42.3185791-06:00;True|2022-02-02T13:00:19.3414538-06:00;True|2022-02-02T12:07:53.0467310-06:00;True|2022-02-02T12:00:06.7870497-06:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>05/20/2020 09:04:00</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Linq.Data.dll">
+      <publishTime>03/11/2022 00:52:40</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Linq.Data.dll.config">
+      <publishTime>03/11/2022 00:51:32</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Linq.Data.pdb">
+      <publishTime>03/11/2022 00:52:40</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Persona.Control.dll">
+      <publishTime>02/05/2022 19:04:45</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Persona.Control.pdb">
+      <publishTime>02/05/2022 19:04:45</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Persona.Data.dll">
+      <publishTime>02/05/2022 19:04:38</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Persona.Data.pdb">
+      <publishTime>02/05/2022 19:04:38</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Persona.dll">
+      <publishTime>03/11/2022 00:53:59</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Persona.pdb">
+      <publishTime>03/11/2022 00:53:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>03/05/2022 15:40:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>03/05/2022 15:40:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>03/05/2022 15:40:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>03/05/2022 15:40:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css">
+      <publishTime>03/05/2022 15:40:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css.map">
+      <publishTime>03/05/2022 15:40:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css">
+      <publishTime>03/05/2022 15:40:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css.map">
+      <publishTime>03/05/2022 15:40:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>03/05/2022 15:40:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>03/05/2022 15:40:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>03/05/2022 15:40:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>03/05/2022 15:40:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css">
+      <publishTime>03/05/2022 15:40:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css.map">
+      <publishTime>03/05/2022 15:40:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css">
+      <publishTime>03/05/2022 15:40:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>03/05/2022 15:40:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css">
+      <publishTime>03/05/2022 15:40:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css.map">
+      <publishTime>03/05/2022 15:40:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css">
+      <publishTime>03/05/2022 15:40:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css.map">
+      <publishTime>03/05/2022 15:40:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css">
+      <publishTime>03/05/2022 15:40:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css.map">
+      <publishTime>03/05/2022 15:40:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css">
+      <publishTime>03/05/2022 15:40:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>03/05/2022 15:40:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>03/05/2022 15:40:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>03/05/2022 15:40:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>03/05/2022 15:40:23</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>03/05/2022 15:40:23</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css">
+      <publishTime>03/05/2022 15:40:23</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css.map">
+      <publishTime>03/05/2022 15:40:23</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css">
+      <publishTime>03/05/2022 15:40:23</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css.map">
+      <publishTime>03/05/2022 15:40:23</publishTime>
+    </File>
+    <File Include="controlformato.css">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="direccion.aspx">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="DireccionExtraManager.aspx">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="DireccionManager.aspx">
+      <publishTime>01/04/2022 17:19:20</publishTime>
+    </File>
+    <File Include="ErrorPage.aspx">
+      <publishTime>02/05/2022 18:52:38</publishTime>
+    </File>
+    <File Include="Images/calendar.jpg">
+      <publishTime>03/10/2022 00:46:54</publishTime>
+    </File>
+    <File Include="Images/delrecord_16x16.png">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Images/descarga.png">
+      <publishTime>02/02/2022 00:28:16</publishTime>
+    </File>
+    <File Include="Images/editrecord_16x16.png">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Images/errores_interpretacion.jpg">
+      <publishTime>02/02/2022 00:28:16</publishTime>
+    </File>
+    <File Include="Images/P70m5H8SkvdTwHDt.jpg">
+      <publishTime>02/02/2022 00:28:16</publishTime>
+    </File>
+    <File Include="Images/Pixir-1-1-300x181.png">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Images/printrecord_16x16.png">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="javaScripFile.js">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="javaScripPage.aspx">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="paginaMaster.Master">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="PersonaManager.aspx">
+      <publishTime>03/11/2022 00:37:29</publishTime>
+    </File>
+    <File Include="PersonaPrincipal.aspx">
+      <publishTime>03/11/2022 00:50:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>03/05/2022 15:40:23</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>03/05/2022 15:40:23</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>03/05/2022 15:40:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>03/05/2022 15:40:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js">
+      <publishTime>03/05/2022 15:40:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js.map">
+      <publishTime>03/05/2022 15:40:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js">
+      <publishTime>03/05/2022 15:40:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js.map">
+      <publishTime>03/05/2022 15:40:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>03/05/2022 15:40:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>03/05/2022 15:40:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>03/05/2022 15:40:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>03/05/2022 15:40:21</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/11/2022 00:44:26</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
