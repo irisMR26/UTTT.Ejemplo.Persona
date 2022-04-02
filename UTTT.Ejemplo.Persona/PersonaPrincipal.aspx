@@ -5,71 +5,78 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-       <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
    <script  src= "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <title></title>
 </head>
-<body>   
+<body class="bg-light">
+   <div class="navbar bg-dark navbar-dark">
+<br />
+    <div class="container text-white">
+            <h1>Bienvenido  <asp:Label ID="lblUsuario" runat="server"></asp:Label>
+            </h1>
+         </div>
+
+        <div class="container text-white">
+            <h4>
+                <asp:Label ID="lblAccion" runat="server" Text="Accion" Font-Bold="True">Administracion de tu personal</asp:Label>
+            </h4>
+        </div>
+        </div>
+
     <div class="container mt-3">
 
     <form id="form1" runat="server">
-    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-    <div style="color: #000000; font-size: medium; font-family: Arial; font-weight: bold" class="text-black-50">    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Persona</div>
-   
-    <div class="mb-3 mt-3"> 
 
-    <div class="row">
+    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+   
+        <br />
+
+    <div class="container"> 
+
+    <h4> Agrega un nombre: </h4>
+        <br />
     <p>
         
-       
-       
-       <div class="col-sm-4">
         Nombre:&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="txtNombre" runat="server" Width="177px" Height="22px" 
-            OnTextChanged="buscarTextBox" AutoPostBack="true" Class="text_center"></asp:TextBox>
+            OnTextChanged="buscarTextBox" AutoPostBack="true" class="text-success"></asp:TextBox>
            <ajaxToolkit:AutoCompleteExtender ID="AutoCompleteExtender1" runat="server" CompletionInterval="100" EnableCaching="false"
                MinimumPrefixLength="2" ServiceMethod="txtNombre_TextChanged" TargetControlID="txtNombre"></ajaxToolkit:AutoCompleteExtender>
-           </div>
+           
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
-        <div class="col-sm-1">
+
         <asp:Button ID="btnBuscar" runat="server" Text="Buscar" 
-            onclick="btnBuscar_Click" ViewStateMode="Disabled" class="btn btn-outline-danger" />
-            </div>
+            onclick="btnBuscar_Click" ViewStateMode="Disabled" class="btn btn-primary btn-sm" />
         &nbsp;&nbsp;&nbsp;
-        <div class="col-sm-1">
         <asp:Button ID="btnAgregar" runat="server" Text="Agregar" 
-            onclick="btnAgregar_Click" ViewStateMode="Disabled" class="btn btn-outline-success" />
-          </div>
-    </p>
-        
+            onclick="btnAgregar_Click" ViewStateMode="Disabled" class="btn btn-danger btn-sm" />
+         &nbsp;&nbsp;&nbsp;
+          <asp:LinkButton ID="LinkButton6" runat="server" href="Hotel.aspx">Menu Principal</asp:LinkButton>
+         </p>
+       </div> 
     
-    <div class="mb-3 mt-3">
+    <div class="container">
          
          <div class="col-sm-4">
         Sexo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:DropDownList ID="ddlSexo" runat="server" Height="35px" Width="177px" class="btn btn-danger dropdown-toggle">
+        <asp:DropDownList ID="ddlSexo" runat="server" Height="35px" Width="177px" class="btn btn-info dropdown-toggle">
         </asp:DropDownList>
              </div>
        </div>
 
-        </div>
-      </div>
-
-    <div style="font-weight: bold">
-    
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Detalle</div>
-
-        <div>
-        
-        </div>
+    <br />
+        <br />
+        <hr />
+        <br />
+    <div class="container w-25">
+         <h4> Detalle </h4> </div>
+  
        
-       
-             <div class="table-bordered table-sm table-responsive-xxl">
+             <div class="table-bordered table-sm table-responsive-xxl container">
   
              <table class="table">
              <asp:GridView ID="dgvPersonas" runat="server" 
@@ -114,6 +121,25 @@
                                 <ItemStyle HorizontalAlign="Center" Width="50px" />
                     
                     </asp:TemplateField>
+
+                     <asp:TemplateField HeaderText="NumeroSeguro">
+                        <ItemTemplate>
+                                    <asp:ImageButton runat="server" ID="imgNumeroSeguro" CommandName="NumeroSeguro" CommandArgument='<%#Bind("id") %>' ImageUrl="~/Images/editrecord_16x16.png" />
+                                </ItemTemplate>
+                                <HeaderStyle HorizontalAlign="Center" />
+                                <ItemStyle HorizontalAlign="Center" Width="50px" />
+                    
+                    </asp:TemplateField>
+
+                     <asp:TemplateField HeaderText="Directorio">
+                        <ItemTemplate>
+                                    <asp:ImageButton runat="server" ID="imgDirectorio" CommandName="Directorio" CommandArgument='<%#Bind("id") %>' ImageUrl="~/Images/editrecord_16x16.png" />
+                                </ItemTemplate>
+                                <HeaderStyle HorizontalAlign="Center" />
+                                <ItemStyle HorizontalAlign="Center" Width="50px" />
+                    
+                    </asp:TemplateField>
+
                 </Columns>
                 <FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
                 <HeaderStyle BackColor="#4A3C8C" Font-Bold="True" ForeColor="#F7F7F7" />
